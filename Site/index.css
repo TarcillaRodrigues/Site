@@ -1,0 +1,253 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(95, 95, 218);
+    display: flex;
+    height: 56px;
+    font-size: 20px;
+    
+
+}
+.menu nav a{
+    /* align-items: center; */
+    color: white;
+    padding: 16px 4px 8px;
+    padding-left: 2px;
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 28px;
+    display: inline-block;
+    /* border-bottom-color:white; */
+    border-bottom-style: solid;
+    /* border-bottom-width: 8px; */ */
+    /* margin-left: 330px; */
+    /* margin-right: 0px; */
+    overflow: hidden;
+  
+}
+
+.menu{
+    margin-left: 1200px;
+}
+
+.logo{
+    position: absolute;
+    left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.logo a{
+    margin-top: 100px;
+}
+
+.texto-logo{
+    color: rgba(255,255,255,1);
+    display: inline-block;
+    line-height: 1;
+    max-width: 300px;
+    /* padding: 16px 10px; */
+    overflow: hidden;
+    text-decoration: none;    
+    vertical-align: middle;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+
+.foto-capa{
+    background: url("./img/capa.jpg");
+    background-repeat: no-repeat;  /*não repete a imagem*/
+    background-size: cover; /*a img preenche o tamanho delimitado sem distorção*/
+    background-position: 0 30%;/*manter a img ao centro*/
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
+    /* padding-top: 100px; */
+    /* padding-right: 200px; */
+    height: 600px;
+    opacity: 0.75;
+}
+
+.texto-capa{
+    color:#ffffff;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    padding-top: 300px;
+    
+    /* margin: 0;
+    border: 0;
+    padding: 464.2;
+    display: inline;
+    vertical-align: baseline; */
+
+    /* font-size: 15pt;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-indent: 20x;
+    line-height: 15;
+    font-weight: 400;
+    word-wrap: break-word; */
+   
+}
+
+
+.capa{
+    flex-direction: column;
+    
+}
+
+.faixa-cinza{
+    table-layout: fixed;
+    margin: 0;
+    border: 0;
+    padding-top: 24px;
+    padding-left: 0px;
+    padding-bottom: 24px;
+    padding-right: 0px;
+    background-color: #434040;
+}
+
+.texto-faixa1{
+    text-align: center;
+    color: white;
+    
+}
+
+.faixa-cinza-claro{
+    table-layout: fixed;
+    margin: 0;
+    border: 0;
+    padding-top: 24px;
+    padding-left: 0px;
+    padding-bottom: 24px;
+    padding-right: 0px;
+    background-color: #aba6a6;
+}
+
+.caixa1{
+    /* position: relative;
+    padding-top: 24px;
+    padding-left: 0px;
+    padding-bottom: 24px;
+    padding-right: 0px; */
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+
+.texto1, .texto2{
+    font-family: sans-serif;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 20%;
+    padding-right: 20%;
+    box-sizing: border-box;
+    text-align: justify;
+    justify-content: center;
+}
+
+h3, h5 {
+    text-align: center;
+}
+
+/* parte3 */
+.fotos{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+}
+
+/* parte4 */
+.parte-video{
+    /* para distanciar da parte superior */
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+}
+
+.video{
+    padding: 20px;
+}
+
+.texto-video{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding: 20px 100px;
+}
+
+/* parte 5 */
+.texto-mapa{
+    /* alinha na principal */
+    justify-content: center;
+    display: flex;
+    font-size: 12pt;
+}
+
+.texto-mapa2{
+    color: rgba(51,103,214,1);
+}  
+
+.fotos-esquerda{
+   flex-direction: column;
+}
+.foto-localizacao{
+    display: flex;
+    /* para distanciar da parte superior */
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.parte-video{
+    /* para alinhar ao lado do outro */
+    display: flex;   
+}
+
+.button{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+}
+
+.button1{
+    padding: 560x 47px;
+    background-color:rgba(0,123,191,1);
+    border: none;  
+
+}
+
+.button1 a{
+    text-decoration: none;
+    color:rgba(255,255,255,1);
+}
+
+#rodape{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    margin-inline: 600px;
+   
+    
+    /* font-size: 9pt;
+    color: rgba(33,33,33,1);
+    font-size: inherit;
+    font-weight: inherit;
+    word-wrap: break-word;
+    position: static;
+    display: inline; */
+}
+
+.imagem-instagram{
+    height: 28px;
+    width: 28px;
+    padding-right: 2px;
+}
